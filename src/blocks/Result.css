@@ -6,7 +6,20 @@
   row-gap: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin: 0 auto 30px auto;
+}
+
+@media (max-width: 1024px) {
+  .result {
+    grid-template-columns: repeat(2, 295px);
+  }
+}
+
+@media (max-width: 680px) {
+  .result {
+    grid-template-columns: 295px;
+  }
 }
 
 .result__button-more {

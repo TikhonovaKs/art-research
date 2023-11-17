@@ -13,7 +13,7 @@
 * https://github.com/TikhonovaKs/art-research.git
 
 ### Link to published website:
-* 
+* https://tikhonovaks.github.io/art-research/
 
 ### Link to public API:
 * https://api.artic.edu/docs/#introduction
@@ -28,10 +28,12 @@ Capabilities:
 * When you refresh the page, you will see your last displayed search list
 * Clicking on one of the loaded cards will redirect you to the page for that card with a detailed description of the art object
 
+---
 
+***Main page***
 ![open popup to add a new place](./src/images/photo-readme-1.png)
 
-
+***Page with selected art object***
 ![open popup to add a new place](./src/images/photo-readme-2.png)
 
 ---

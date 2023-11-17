@@ -13,7 +13,7 @@
 * https://github.com/TikhonovaKs/art-research.git
 
 ### Link to published website:
-* https://tikhonovaks.github.io/art-research/
+* https://tikhonovaks.github.io/art-research/src/index.html
 
 ### Link to public API:
 * https://api.artic.edu/docs/#introduction

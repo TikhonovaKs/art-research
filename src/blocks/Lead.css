@@ -25,6 +25,17 @@
   padding-bottom: 30px;
 }
 
+.lead__subtitle-small {
+  max-width: 1000px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(148, 148, 148);
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
 .lead__underline {
   border-bottom: 1px solid rgb(230, 230, 230);
 }

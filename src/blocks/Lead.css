@@ -1,0 +1,30 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.lead__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.lead__subtitle {
+  max-width: 1000px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(148, 148, 148);
+  padding-bottom: 30px;
+}
+
+.lead__underline {
+  border-bottom: 1px solid rgb(230, 230, 230);
+}

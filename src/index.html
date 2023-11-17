@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art research</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__logo">Discover art</div>
+    </header>
+    <main class="main">
+      <div class="lead">
+        <h1 class="lead__title">The collection</h1>
+        <p class="lead__subtitle">
+          Explore thousands of artworks in the museum’s collection. Explore thousands of artworks in the museum’s
+          collection. Explore thousands of artworks in the museum’s collection.
+        </p>
+        <div class="lead__underline"></div>
+      </div>
+      <form class="search" name="searchform" novalidate>
+        <input type="text" name="keyword" placeholder="Search by keyword or artist" class="search__input" required />
+        <button disabled type="submit" class="search__button search__button_disabled" aria-label="Send">Ok</button>
+      </form>
+      <section class="result"></section>
+      <template id="card-template">
+        <article class="card">
+          <a target="_blank" href="" class="card__link">
+            <img class="card__image" src="#" alt="#" />
+            <h2 class="card__title"></h2>
+            <p class="card__author"></p>
+          </a>
+        </article>
+      </template>
+      <button type="submit" class="result__button-more" aria-label="Send">More</button>
+    </main>
+    <script src="../src/pages/index.js"></script>
+  </body>
+</html>

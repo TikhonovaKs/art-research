@@ -1,0 +1,36 @@
+.card {
+  width: 295px;
+  border-left: 0.5px solid rgb(230, 230, 230);
+  border-right: 0.5px solid rgb(230, 230, 230);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-out;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: normal;
+  color: rgb(26, 26, 26);
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.card__author {
+  font-size: 16px;
+  line-height: normal;
+  color: rgb(118, 118, 118);
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}

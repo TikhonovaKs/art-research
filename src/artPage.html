@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art page</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__logo">Discover art</div>
+    </header>
+    <main class="main">
+      <section class="result-page"></section>
+      <template id="artpage-template">
+        <div class="image">
+          <img class="image__item" src="#" alt="" />
+        </div>
+        <div class="info">
+          <h1 class="info__title"></h1>
+          <nav class="info__subtitle">
+            <li class="info__subtitle-item" id="subtitle-author"></li>
+            <li class="info__subtitle-item" id="subtitle-data"></li>
+          </nav>
+          <p class="info__description"></p>
+          <section class="info__facts">
+            <p class="info__facts-title">Artist</p>
+            <p class="info__facts-description" id="artist"></p>
+            <p class="info__facts-title">Title</p>
+            <p class="info__facts-description" id="title"></p>
+            <p class="info__facts-title">Place</p>
+            <p class="info__facts-description" id="place"></p>
+            <p class="info__facts-title">Inscriptions</p>
+            <p class="info__facts-description" id="inscriptions"></p>
+            <p class="info__facts-title">Dimensions</p>
+            <p class="info__facts-description" id="dimensions"></p>
+            <p class="info__facts-title">Credit Line</p>
+            <p class="info__facts-description" id="credit-line"></p>
+          </section>
+        </div>
+      </template>
+    </main>
+    <script src="../src/pages/artPage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.result {
+  display: grid;
+  grid-template-columns: repeat(4, 295px);
+  border-top: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  row-gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.result__button-more {
+  width: 200px;
+  height: 50px;
+  background-color: #b50938;
+  color: rgb(230, 230, 230);
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.result__button-more_visible {
+  visibility: visible;
+  opacity: 1;
+}
